@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+}
+.form{
+	background:#f1f1f1;
+	width:550px;
+	margin:0 auto;
+	padding-left:29px;
+	padding-top:45px;
+	padding-bottom: 45px;
+	margin-left: 380px;
+}
+body{
+	font-family: sans-serif;
+	background-color:lightgrey;
+	background-image:linear-gradient(90deg, #f6d365, #fda085);
+	
+}
+select{
+	padding:5px;
+	border:2px black;
+	border-style: none;
+	border-radius: 2px;
+	resize: vertical;
+
+}
+input[type=submit]:hover {
+	background-color:royalblue;
+	border:none;*/
+	color:white;
+	padding:12px 14px;
+	/*text-decoration: none;*/
+	margin: 4px 2px;
+	cursor: pointer;
+}
+form label{
+	display:inline-block;
+	position:absolute;
+	right:780px;
+	width:auto;
+	padding-left: 50px;
+	margin-left: 400px;
+	}
+input[type=reset]:hover {
+	background-color:red;
+	border:none;
+	color:white;
+	padding:12px 14px;
+	/*text-decoration: none;*/
+	margin: 4px 2px;
+	cursor: pointer;
+}
+textarea{
+	height:20px;
+	width:200px;
+	overflow:auto;
+	margin-left: 50px;
+}
+input[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
