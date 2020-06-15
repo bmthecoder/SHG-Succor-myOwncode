@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SHG</title>
+	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+	<style type="text/css">
+		.dropbtn {
+			  background-color: #4CAF50;
+			  color: white;
+			  padding: 16px;
+			  font-size: 16px;
+			  border: none;
+			}
+
+		.dropdown {
+			  position: relative;
+			  display: inline-block;
+			  float: right;
+			}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f1f1f1;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		}
+
+		.dropdown-content a:hover {background-color: #ddd;}
+
+		.dropdown:hover .dropdown-content {display: block;}
+
+		.dropdown:hover .dropbtn {background-color: #3e8e41;}
+	</style>
+</head>
+<body>
+	<div class="dropdown">
+	  <button class="dropbtn">Choose Language</button>
+	  <div class="dropdown-content">
+	    <a href="tamilindex.html">தமிழ்</a>
+	    <a href="#">हिन्दी</a>
+	    <a href="#">മലയാളം</a>
+	    <a href="#">ಕನ್ನಡ</a>
+	    <a href="#">ગુજરાતી</a>
+	    <a href="#">తెలుగు</a>
+	  </div>
+	</div>
+	<br><br><br><br>
+	<h1 style="color: red; font-size: 25px; background-color: yellow;"><marquee direction="right">Welcome to SHG - Succor!</marquee></h1>
+	<p style="color: white; font-size: 20px; border: solid black; border-width: 1px; background-color: blue; padding: 10px; margin-right: 500px; margin-left: 500px" align="center"><b>Your Privacy, Our Privilege!</b></p>
+	<form>
+		<div align="center" id="userid" style="margin-left: 20px;">
+		<label style="font-size: 20px; font-family: Calibri"><b>User ID :</b></label>
+			<input type="text" id="useridtab" name="fname" placeholder="Enter your User ID" autofocus="" style="margin-left: 20px; padding: 5px 10px;">
+		</div><br>
+		<div align="center" id="pswrd">
+			<label style="font-size: 20px; font-family: Calibri"><b>Password :</b></label>
+			<input type="Password" id="pswrdtab" name="pname" placeholder="Enter your password" style="margin-left: 20px; padding: 5px 10px;">
+		</div><br>
+		<div align="center" id="Category" style="margin-left: -112px;">
+			<label style="font-size: 20px; font-family: Calibri; margin-right: 15px; margin-left: 100px"><b>Category :</b></label>
+			<select style="margin-right: 75px; padding: 5px 10px;">
+				<option>Select</option>
+				<option>Leader</option>
+				<option>Member</option>
+			</select>
+		</div><br><br>
+	<a href="signin.html"><center><input type="submit" name="submit" value="Submit" onclick="signin.html"></center>
+	</form></style>
+	<h6 align = center><a href="signup.html" style="font-size: 20px"> New User? Sign Up!</a></h6>
+</body>
+</html>
