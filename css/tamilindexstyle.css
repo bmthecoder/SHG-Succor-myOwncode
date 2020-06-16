@@ -1,11 +1,17 @@
 #userid {
-
+	font-family: 'Roboto Slab', serif;
+}
+#useridtab {
+	
 }
 
 #pswrd {
-	margin-left: 20px;
+	font-family: 'Roboto Slab', serif;
+}
+#pswrdtab {
+	
 }
 
 #Category {
-	margin-right: 86px;
+	font-family: 'Roboto Slab', serif;
 }
